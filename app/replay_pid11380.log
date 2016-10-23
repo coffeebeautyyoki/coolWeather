@@ -1,0 +1,39 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 237 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1483353 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 3073 1 384 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 7169 1 896 0 -1
+ciMethod java/lang/Long numberOfTrailingZeros (J)I 1417 1 5297 0 -1
+ciMethod java/util/AbstractList <init> ()V 273 1 151175 0 32
+ciMethod java/util/AbstractCollection <init> ()V 281 1 199356 0 0
+ciMethod java/lang/Math max (II)I 225 1 156715 0 -1
+ciMethod java/lang/Math min (II)I 3553 1 38502 0 -1
+ciMethod java/util/ArrayList <init> (I)V 4097 1 20992 0 -1
+ciMethod java/util/ArrayList <init> ()V 121 1 108522 0 64
+ciMethod java/util/ArrayList ensureCapacity (I)V 4097 1 31384 0 -1
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 641 1 421963 0 576
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 641 1 390545 0 576
+ciMethod java/util/ArrayList grow (I)V 89 1 5239 0 544
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 0
+ciMethod java/util/ArrayList size ()I 1097 1 137 0 0
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 2081 1 1427729 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 2081 1 1411646 0 128
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 641 1 411384 0 736
+ciMethod java/util/ArrayList rangeCheck (I)V 2081 1 1427376 0 64
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 4105 1 12169 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 4097 1 6706 0 -1
+ciMethod java/util/Arrays copyOf ([JI)[J 17 1 1208 0 0
+ciMethodData java/lang/Object <init> ()V 2 1483379 orig 264 184 158 51 111 0 0 0 0 136 4 141 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 153 3 181 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/BitSet wordIndex (I)I 2057 1 65985 0 0
+ciMethod java/util/BitSet checkInvariants ()V 2049 1 7305 0 32
+ciMethod java/util/BitSet recalculateWordsInUse ()V 4097 3057 6807 0 0
+ciMethod java/util/BitSet <init> (I)V 2057 1 7822 0 288
+ciMethod java/util/BitSet initWords (I)V 2121 1 7831 0 0
+ciMethod java/util/BitSet ensureCapacity (I)V 73 1 6327 0 0
+ciMethod java/util/BitSet expandTo (I)V 7441 1 21480 0 0
+ciMethod java/util/BitSet set (I)V 2049 1 9326 0 320
+ciMethod java/util/BitSet clear (I)V 4097 1 6928 0 224
+ciMethod java/util/BitSet nextSetBit (I)I 3073 1 5829 0 256
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 411417 orig 264 184 158 51 111 0 0 0 0 48 66 154 20 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 73 54 50 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 4 0 1 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x646df 0x1a0104 0x0 0x18a77e50 0x333 0x18a78700 0xc oops 2
